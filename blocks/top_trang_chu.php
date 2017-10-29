@@ -22,7 +22,7 @@
               ?>
                <li>
                 <div class="title_news">
-               		<a href="#" class="txt_link"> Bị bắt vì chụp ảnh selfie với váy ăn trộm </a> 
+               		<a href="#" class="txt_link"> <?php echo $row_bontinmoi['TieuDe'] ?> </a> 
                 </div>
               </li>
               <?php

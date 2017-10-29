@@ -13,7 +13,7 @@
 		$qr="
 			SELECT * FROM tin
 			ORDER BY idtin DESC
-			LIMIT 1,6;
+			LIMIT 1,10;
 		";
 		return mysql_query($qr);
 	}
@@ -26,4 +26,5 @@
 		";
 		return mysql_query($qr);
 	}
+	
 ?>
